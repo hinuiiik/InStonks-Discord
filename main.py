@@ -18,7 +18,9 @@ prefix = 's!'
 
 @client.event
 async def on_ready():
-    print('Bot has started as {0.user}'.format(client))
+    print('Item stock notifier discord bot.')
+    print('Copyright (C) 2021 hinuiiik>')
+    print('\nBot has started as {0.user}'.format(client))
     await client.change_presence(
         activity=discord.Streaming(name='Prefix: s!', url='https://www.youtube.com/watch?v=xuCO7-DLCaA'))
 
